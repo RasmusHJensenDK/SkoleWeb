@@ -1,0 +1,89 @@
+
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+.hero-image {
+    background-image: url("/Media/Slidebanner/banner_assasins_creed_2.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    max-width: 1080px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text {
+    font-size: 10px;
+}
+
+.navbar {
+    background-color: black;
+    color:white;
+    opacity: 1;
+    height: 40px;
+    padding-top: -10px;
+}
+
+.nav {
+    margin-top: -8px;
+}
+
+a {
+    color: gray;
+}
+
+.nav-item:hover a {
+    background-color: #5dbcd2;
+    color:black;
+    opacity: 1;
+
+}
+
+.sticky-top {
+    opacity: 0.75;
+}
+
+.pushed {
+    padding-top: 175px;
+}
+
+.colfor {
+    background-color: black;
+    color: white; 
+}
+
+.seemore {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.rowstyle {
+    min-height: 300px;
+    opacity: 0.75;
+}
+
+.row {
+    padding-top: 10px;
+    padding-right: 0px!important;
+}
+
+.forpic {
+    padding-right: 0px!important;
+    padding-left: 20px!important;
+}
+
+.mainrow {
+    padding-left: 25px;
+}
+
+.bottomcenter {
+    position: absolute;
+    bottom: 8px;
+    transform: translate(-50%, -50%);
+  }

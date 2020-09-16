@@ -19,6 +19,9 @@ body, html {
 
 .hero-text {
     font-size: 10px;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: 5px;
 }
 
 .navbar {
@@ -27,6 +30,17 @@ body, html {
     opacity: 1;
     height: 40px;
     padding-top: -10px;
+}
+
+.nav-item {
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.active {
+    background-color: #5dbcd2;
+    color: white;
 }
 
 .nav {
@@ -39,7 +53,7 @@ a {
 
 .nav-item:hover a {
     background-color: #5dbcd2;
-    color:black;
+    color:white;
     opacity: 1;
 
 }
@@ -49,18 +63,23 @@ a {
 }
 
 .pushed {
-    padding-top: 175px;
+    padding-top: 150px;
+    margin-left: -10px;
+    opacity: 1;
 }
 
 .colfor {
     background-color: black;
     color: white; 
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .seemore {
     width: 15px;
     height: 15px;
-    margin-bottom: 10px;
+    margin-left: -10px;
 }
 
 .rowstyle {
@@ -86,4 +105,4 @@ a {
     position: absolute;
     bottom: 8px;
     transform: translate(-50%, -50%);
-  }
+}

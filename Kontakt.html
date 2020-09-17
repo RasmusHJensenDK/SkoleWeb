@@ -6,22 +6,69 @@
     </header>
 
     <body>
-        <nav class="navbar sticky-top justify-content-center ">
+        <nav class="navbar sticky-top justify-content-center" style="margin-top: -50px">
             <ul class="nav justify-content-center">
-                <li class="nav-item">
+                <li class="nav-item" style="min-width: 75px;">
                   <a class="nav-link" href="/index.html">Forside</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" style="min-width: 75px;">
                   <a class="nav-link" href="/Spil.html">Spil</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" style="min-width: 75px;">
                   <a class="nav-link" href="/Anmeldelser.html">Anmeldelser</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="/Kontakt.html">Kontakt</a>
+                <li class="nav-item active" style="min-width: 75px;">
+                  <a class="nav-link" href="/Kontakt.html">Kontakt</a>
                 </li>
               </ul>
           </nav>
+
+          <div class="game-hero-image">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-8" style="margin-top: 98px;">
+                        <img style="max-width: 200px; margin-left: -180px" src="Media/Logo/logo.png">
+                        <img class="socialmedia" style="margin-left: 440px;" src="Media/Sociale ikoner/icon_facebook.png">
+                        <img class="socialmedia" src="Media/Sociale ikoner/icon_gplus.png">
+                        <img class="socialmedia" src="Media/Sociale ikoner/icon_twitter.png">
+                        <img class="socialmedia" src="Media/Sociale ikoner/icon_youtube.png">
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+          </div>
+
+          <div class="main" style="background-color: white;">
+            <div class="containercontact">
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col-8" style="background-color:white; min-height: 1000px; margin-top: -55px;" >
+                      <div style="height: 40px; background-color: black; margin-top: 20px;">
+                        <img style="margin-top: 10px; margin-left: 10px;" src="Media/Grafik/icon_titlebar.png">
+                          <h1 style="color: aqua; font-size: 24px; margin-top: -25px; margin-left: 35px; font-weight: 400;">
+                            Kontakt
+                          </h1>
+                      </div>
+                      <p style="margin-top: 10px;">Udfyld og send formularen, hvis du har et spørgsmål eller en besked</p>
+                      <div clas="containerforcontact">
+                        <form action="/index.html">
+                          <label for="fname">Fulde navn</label>
+                          <input type="text" id="fname" name="firstname" style="margin-left: 200px; margin-right:0;">
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email">
+                          <label for="subject">Besked</label>
+                          <textarea id="subject" name="subject" style="height:200px"></textarea>
+                          <input type="submit" value="submit">
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+          </div>
+
     </body>
 
     <footer></footer>

@@ -26,9 +26,31 @@ body, html {
     margin-bottom: 5px;
 }
 
+.game-hero-image {
+    background-image: url("/Media/Grafik/cross.png");
+    height: 50%;
+    background-repeat: repeat;
+    background-color: gray;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+}
+
 .mybutton {
     background-color: teal;
     color: white;
+    height: 25px; 
+    width: 60px; 
+    margin-top: -10px; 
+    margin-left: -10px; 
+    font-size: 10px; 
+    border-radius: 25px; 
+    border-color: white; 
+    float: left;
 }
 
 .mybutton:hover {
@@ -116,4 +138,71 @@ a {
     position: absolute;
     bottom: 8px;
     transform: translate(-50%, -50%);
+}
+
+.aktuellespilbillede {
+    max-height: 120px; 
+    margin-left: -50px;
+}
+
+.aktuellespilbillede:hover {
+    cursor: pointer;
+}
+
+.nyeanbilleder {
+    max-height: 30px; 
+    margin-left: -20px;
+}
+
+.nyeanbilleder:hover {
+    cursor: pointer;
+}
+
+.nyeanover {
+    text-align: left; 
+    margin-left: -30px; 
+    font-size: 12px;
+}
+
+.nyeanover:hover {
+    cursor: pointer;
+}
+
+.nyeancreated {
+    font-size: 8px; 
+    text-align: left; 
+    margin-left: -30px;
+    margin-top: -8px;
+}
+
+.aktuellespiltekst {
+    font-size: 12px; 
+    text-align: left; 
+    margin-left: -50px; 
+    margin-top: -8px;
+}
+
+.aktuellespiludgiver {
+    font-size: 12px; 
+    text-align: left; 
+    margin-left: -50px; 
+    margin-top:-7px;
+}
+
+.aktuellespilh5 {
+    text-align: left; 
+    margin-left: -50px;
+}
+
+.aktuellespilh5:hover {
+    cursor: pointer;
+}
+
+.socialmedia {
+    max-width: 25px!important; 
+    max-height: 25px!important;
+}
+
+.socialmedia:hover {
+    cursor: pointer;
 }

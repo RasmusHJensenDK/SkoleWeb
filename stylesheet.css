@@ -2,6 +2,8 @@
 body, html {
     height: 100%;
     background-color: black;
+    max-width: 1480px;
+    margin: auto;
 }
 
 .hero-image {
@@ -11,7 +13,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
-    max-width: 1080px;
+    max-width: 1280px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -22,6 +24,15 @@ body, html {
     margin-left: -12px;
     margin-right: -12px;
     margin-bottom: 5px;
+}
+
+.mybutton {
+    background-color: teal;
+    color: white;
+}
+
+.mybutton:hover {
+    cursor: pointer;
 }
 
 .navbar {

@@ -1,13 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans); 
 
 body, html {
     height: 100%;
     background-color: black;
-    max-width: 1480px;
+    max-width: 1920px;
     margin: auto;
 }
 
 .hero-image {
-    background-image: url("/Media/Slidebanner/banner_assasins_creed_2.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,6 +26,20 @@ body, html {
     margin-bottom: 5px;
 }
 
+.w3-content {
+    max-width: 1800px!important;
+}
+
+.w3-black {
+    background-color: none!important;
+    opacity: 0;
+}
+
+.thumbpictures {
+    height: 100%;
+    width: 100%;
+}
+
 .game-hero-image {
     background-image: url("/Media/Grafik/cross.png");
     height: 50%;
@@ -41,13 +55,13 @@ body, html {
 }
 
 .mybutton {
-    background-color: teal;
+    background-color: aqua;
     color: white;
-    height: 25px; 
-    width: 60px; 
+    height: 35px; 
+    width: 100px; 
     margin-top: -10px; 
     margin-left: -10px; 
-    font-size: 10px; 
+    font-size: 16px; 
     border-radius: 25px; 
     border-color: white; 
     float: left;
@@ -96,7 +110,7 @@ a {
 }
 
 .pushed {
-    padding-top: 150px;
+    padding-top: 280px;
     margin-left: -10px;
     opacity: 1;
 }
@@ -107,12 +121,19 @@ a {
     margin-top: -25px;
     padding-left: 20px;
     padding-right: 20px;
+    min-height: 400px;
+    min-width: 200px;
 }
 
 .seemore {
     width: 15px;
     height: 15px;
     margin-left: -10px;
+}
+
+.arrowdown {
+    width: 15px;
+    height: 15px;
 }
 
 .rowstyle {
@@ -122,22 +143,30 @@ a {
 
 .row {
     padding-top: 10px;
-    padding-right: 0px!important;
-}
-
-.forpic {
-    padding-right: 0px!important;
-    padding-left: 20px!important;
+    margin-right: none!important;
 }
 
 .mainrow {
-    padding-left: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .bottomcenter {
     position: absolute;
     bottom: 8px;
     transform: translate(-50%, -50%);
+    background-color: black;
+    min-width: 84%;
+    margin-bottom: -13%;
+    min-height: 20%;
+    color: aqua;
+    margin-left: 42%;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+.bottomcenter:hover {
+    cursor: pointer;
 }
 
 .aktuellespilbillede {
@@ -152,6 +181,9 @@ a {
 .nyeanbilleder {
     max-height: 30px; 
     margin-left: -20px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -5%;
 }
 
 .nyeanbilleder:hover {
@@ -235,4 +267,9 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  .forpicture {
+      max-height: 60%!important;
+      max-width: 60%!important;
   }
